@@ -18,6 +18,7 @@
             leftSum += result;
             rightSum -= nums[i+1]
         }
+        console.log(`Your result is ${result}`);
     }
     return -1;
 };
