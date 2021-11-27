@@ -27,7 +27,3 @@ function isAlienSorted(words: string[], order: string): boolean {
 //3. Otherwise, if both strings’ first characters are the same, compare the second characters the same way.
 //4. Repeat until the end of either string.
 //5. If both strings end at the same length, then they are equal. Otherwise, the longer string is greater.
-
-// If map[current[i]] < map[next[i]] we need to return false because we don’t need to compare other characters anymore.
-// If map[current[i]] > map[next[i]] we need to go to the next word pair if it exists.
-
